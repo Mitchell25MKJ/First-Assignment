@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(29, 29, 29);
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navlinks{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.container1{
+    
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid rgb(0, 204, 255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+.portfolio {
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(0, 204, 255);
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+.Cards {
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;  
+    gap: 100px;              
+}
+.Cards > div {
+    max-width: 250px;
+}
+.footerbar{
+  display: flex;
+    flex-wrap: wrap;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(29, 29, 29);
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    color: white;
+
+}
+.footlinks li a{
+    color: white;
+    text-decoration: none;
+}
+.footlinks{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.mitchell{
+    width: 250px;          
+    border-radius: 10px;    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 60px;
+}
+.pictures{
+    width: 250px;          
+    border-radius: 10px;    
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
